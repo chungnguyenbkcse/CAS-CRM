@@ -1,172 +1,270 @@
 <?php
-$viewdefs ['Leads'] =
-array(
-  'EditView' =>
+$viewdefs['Leads'] =
   array(
-    'templateMeta' =>
+    'EditView' =>
     array(
-      'form' =>
+      'templateMeta' =>
       array(
-        'hidden' =>
+        'form' =>
         array(
-          0 => '<input type="hidden" name="prospect_id" value="{if isset($smarty.request.prospect_id)}{$smarty.request.prospect_id}{else}{$bean->prospect_id}{/if}">',
-          1 => '<input type="hidden" name="account_id" value="{if isset($smarty.request.account_id)}{$smarty.request.account_id}{else}{$bean->account_id}{/if}">',
-          2 => '<input type="hidden" name="contact_id" value="{if isset($smarty.request.contact_id)}{$smarty.request.contact_id}{else}{$bean->contact_id}{/if}">',
-          3 => '<input type="hidden" name="opportunity_id" value="{if isset($smarty.request.opportunity_id)}{$smarty.request.opportunity_id}{else}{$bean->opportunity_id}{/if}">',
+          'hidden' =>
+          array(
+            0 => '<input type="hidden" name="prospect_id" value="{if isset($smarty.request.prospect_id)}{$smarty.request.prospect_id}{else}{$bean->prospect_id}{/if}">',
+            1 => '<input type="hidden" name="account_id" value="{if isset($smarty.request.account_id)}{$smarty.request.account_id}{else}{$bean->account_id}{/if}">',
+            2 => '<input type="hidden" name="contact_id" value="{if isset($smarty.request.contact_id)}{$smarty.request.contact_id}{else}{$bean->contact_id}{/if}">',
+            3 => '<input type="hidden" name="opportunity_id" value="{if isset($smarty.request.opportunity_id)}{$smarty.request.opportunity_id}{else}{$bean->opportunity_id}{/if}">',
+            4 => '<input type="hidden" name="lead_status_id" id = "lead_status_id" value="{$bean->lead_status}">',
+            5 => '<input type="hidden" name="lead_id" id = "lead_id" value="{$bean->id}">',
+            6 => '<input type="hidden" name="ro_name_val" id = "ro_name_val" value="{$bean->ro_name}">',
+            7 => '<input type="hidden" name="owner_branch_val" id = "owner_branch_val" value="{$bean->owned_branch}">',
+            8 => '<input type="hidden" name="phone_number_primaryx" id = "phone_number_primaryx" value="{$bean->phone_number_primary}">',
+            9 => '<input type="hidden" name="sale_stages_val" id = "sale_stages_val" value="{$bean->sale_stage}">',
+            10 => '<input type="hidden" name="ho_name_val" id = "ho_name_val" value="{$bean->ho_name}">',
+          ),
+          'buttons' =>
+          array(
+            0 => array(
+              'customCode' => '
+              <input 
+                title="Save" 
+                accesskey="a" 
+                class="button primary" 
+                onclick="
+                  var _form = document.getElementById(\'EditView\'); 
+                  _form.action.value=\'Save\'; 
+                  if(check_form(\'EditView\'))
+                    SUGAR.ajaxUI.submitForm(_form);
+                    return false;" 
+                type="submit" 
+                name="button" 
+                value="Save" 
+                id="SAVE"
+              >'
+            ),
+            1 => 'CANCEL',
+          ),
+          'headerTpl' => 'include/EditView/header.tpl',
+          'footerTpl' => 'include/EditView/footer.tpl',
         ),
-        'buttons' =>
+        'maxColumns' => '2',
+        'widths' =>
         array(
-          0 => 'SAVE',
-          1 => 'CANCEL',
+          0 =>
+          array(
+            'label' => '10',
+            'field' => '30',
+          ),
+          1 =>
+          array(
+            'label' => '10',
+            'field' => '30',
+          ),
+        ),
+        'includes' =>
+        array(
+          0 =>
+          array(
+            'file' => 'custom/modules/Leads/editview.js',
+          )
+        ),
+        'javascript' => '
+        <script type="text/javascript" src="include/SugarEmailAddress/SugarEmailAddress.js"></script>
+        <script type="text/javascript">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" language="Javascript">function copyAddressRight(form)  {ldelim} form.alt_address_street.value = form.primary_address_street.value;form.alt_address_city.value = form.primary_address_city.value;form.alt_address_state.value = form.primary_address_state.value;form.alt_address_postalcode.value = form.primary_address_postalcode.value;form.alt_address_country.value = form.primary_address_country.value;return true; {rdelim} function copyAddressLeft(form)  {ldelim} form.primary_address_street.value =form.alt_address_street.value;form.primary_address_city.value = form.alt_address_city.value;form.primary_address_state.value = form.alt_address_state.value;form.primary_address_postalcode.value =form.alt_address_postalcode.value;form.primary_address_country.value = form.alt_address_country.value;return true; {rdelim} </script>
+        ',
+        'useTabs' => false,
+        'tabDefs' =>
+        array(
+          'LBL_CONTACT_INFORMATION' =>
+          array(
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+          ),
+          'LBL_PANEL_ADVANCED' =>
+          array(
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+          ),
         ),
       ),
-      'maxColumns' => '2',
-      'widths' =>
+      'panels' =>
       array(
-        0 =>
+        'LBL_EDIT_ROLE_MKT' =>
         array(
-          'label' => '10',
-          'field' => '30',
-        ),
-        1 =>
-        array(
-          'label' => '10',
-          'field' => '30',
-        ),
-      ),
-      'javascript' => '<script type="text/javascript" language="Javascript">function copyAddressRight(form)  {ldelim} form.alt_address_street.value = form.primary_address_street.value;form.alt_address_city.value = form.primary_address_city.value;form.alt_address_state.value = form.primary_address_state.value;form.alt_address_postalcode.value = form.primary_address_postalcode.value;form.alt_address_country.value = form.primary_address_country.value;return true; {rdelim} function copyAddressLeft(form)  {ldelim} form.primary_address_street.value =form.alt_address_street.value;form.primary_address_city.value = form.alt_address_city.value;form.primary_address_state.value = form.alt_address_state.value;form.primary_address_postalcode.value =form.alt_address_postalcode.value;form.primary_address_country.value = form.alt_address_country.value;return true; {rdelim} </script>',
-      'useTabs' => false,
-      'tabDefs' =>
-      array(
-        'LBL_CONTACT_INFORMATION' =>
-        array(
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_PANEL_ADVANCED' =>
-        array(
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_PANEL_ASSIGNMENT' =>
-        array(
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-      ),
-    ),
-    'panels' =>
-    array(
-      'LBL_CONTACT_INFORMATION' =>
-      array(
-        0 => array(
+          0 => array(
             0 => 'facebook_or_zalo_name',
             1 => "data_sources",
           ),
-        1 =>
-        array(
-          0 => 'last_name',
-          1 => 'phone_work',
-        ),
-        2 =>
-        array(
-          0 => 'title',
-          1 => 'phone_mobile',
-        ),
-        3 =>
-        array(
-          0 => 'department',
-          1 => 'phone_fax',
-        ),
-        4 =>
-        array(
-          0 =>
+          1 =>
           array(
-            'name' => 'account_name',
-            'type' => 'varchar',
-            'validateDependency' => false,
-            'customCode' => '<input name="account_name" id="EditView_account_name" {if ($fields.converted.value == 1)}disabled="true"{/if} size="30" maxlength="255" type="text" value="{$fields.account_name.value}">',
-          ),
-          1 => 'website',
-        ),
-        5 =>
-        array(
-          0 =>
-          array(
-            'name' => 'primary_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' =>
-            array(
-              'key' => 'primary',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
+            0 => array(
+              'name' => 'phone_number_primary',
+              'label' => 'LBL_PHONE_NUMBER_PRIMARY',
+              'displayParams' =>
+              array(
+                'required' => true,
+              ),
+              'customCode' => '  
+                <div class="row">
+                  <div class="col-xs-6 input_phone_number_primary">
+                    <input id="phone_number_primary" type="text" title value="{$fields.phone_number_primary.value}" name="phone_number_primary""> 
+                  </div>
+                  <div class="col-xs-3 btn-phone">
+                    <i class="glyphicon glyphicon-earphone"></i>
+                  </div>
+
+                  <div class="col-xs-3 btn-phone">
+                    <img src="icons8-zalo-48.png" alt="zalo" width="36px" height="36px">
+                  </div>
+                </div>
+                ',
             ),
+            1 => "card_bark_type",
+          ),
+          2 =>
+          array(
+            0 => array(
+              'name' => 'is_record',
+              'label' => 'LBL_IS_RECORD',
+              'customCode' => '  
+                <div class="row">
+                  <div class="col-xs-7 btn-record">
+                  </div>
+                </div>
+                ',
+            ),
+            1 => 'service',
+          ),
+          3 =>
+          array(
+            0 => 'bank',
+            1 => 'payment_day',
+          ),
+          4 =>
+          array(
+            0 => "transaction_amount",
+            1 => 'fee',
+          ),
+          5 =>
+          array(
+            0 => 'sale_stage',
+            1 => 'lead_status',
+          ),
+          6 =>
+          array(
+            0 => 'owned_branch',
+            1 => 'ro_name',
+          ),
+          7 =>
+          array(
+            0 => "contact_date",
+            1 => "note",
+          )
+        ),
+        'LBL_EDIT_ROLE_RO' =>
+        array(
+          0 =>
+          array(
+            0 => 'fullname',
+            1 => 'bank',
           ),
           1 =>
           array(
-            'name' => 'alt_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' =>
-            array(
-              'key' => 'alt',
-              'copy' => 'primary',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
+            0 => 'citizen_identification',
+            1 => 'card_bark_type',
+          ),
+          2 =>
+          array(
+            0 => "citizen_identification_issuance_date",
+            1 => 'real_transaction_amount',
+          ),
+          3 =>
+          array(
+            0 => "citizen_identification_issuance_place",
+            1 => "real_fee"
+          ),
+          4 =>
+          array(
+            0 => "address_follow_citizen_identification",
+            1 => "payment_day"
+          ),
+          5 =>
+          array(
+            0 => "birthday",
+            1 => "successful_trading_day"
+          ),
+          6 =>
+          array(
+            0 => array(
+              'name' => 'phone_number_extra',
+              'customCode' => '  
+                <div class="row">
+                  <div class="col-xs-6 input_phone_number_extra">
+                    <input id="phone_number_extra" type="text" title value="{$fields.phone_number_extra.value}" name="phone_number_extra""> 
+                  </div>
+                  <div class="col-xs-3 btn-phone_number_extra">
+                    <i class="glyphicon glyphicon-earphone"></i>
+                  </div>
+
+                  <div class="col-xs-3 btn-phone">
+                    <img src="icons8-zalo-48.png" alt="zalo_extra" width="36px" height="36px">
+                  </div>
+                </div>
+                ',
+            ),
+            1 => "career"
+          ),
+          7 =>
+          array(
+            0 => "district_customer_live",
+            1 => "sale_stage"
+          ),
+          8 =>
+          array(
+            0 => array(
+              'name' => 'service',
+              'label' => 'LBL_SERVICE_2',
+            ),
+            1 => array(
+              'name' => 'status',
+              'customCode' => '  
+              <div class="col-xs-12 card-number-list">
+                <div class="col-xs-12 card-number-add-line-container emailaddresses" id="{$module}emailAddressesTable{$index}">
+                  <button type="button" class="btn btn-danger card-number-add-button" title="{$app_strings.LBL_ID_FF_ADD_EMAIL} " {$other_attributes}>
+                    <span class="suitepicon suitepicon-action-plus"></span><span></span>
+                  </button>
+                </div>
+              </div>
+              <input type="hidden" name="useEmailWidget" value="true">
+              ',
             ),
           ),
-        ),
-        6 =>
-        array(
-          0 => 'email1',
-        ),
-        7 =>
-        array(
-          0 => 'description',
-        ),
-      ),
-      'LBL_PANEL_ADVANCED' =>
-      array(
-        0 =>
-        array(
-          0 => 'status',
-          1 => 'lead_source',
-        ),
-        1 =>
-        array(
-          0 =>
+          9 =>
           array(
-            'name' => 'status_description',
+            0 => "ho_name",
+            1 => "note",
           ),
-          1 =>
+          10 =>
           array(
-            'name' => 'lead_source_description',
+            0 => "lead_status",
+            1 => "MKT_day_shared_BU",
           ),
-        ),
-        2 =>
-        array(
-          0 => 'opportunity_amount',
-          1 => 'refered_by',
-        ),
-        3 =>
-        array(
-          0 => 'campaign_name',
-        ),
-      ),
-      'LBL_PANEL_ASSIGNMENT' =>
-      array(
-        0 =>
-        array(
-          0 =>
+          11 =>
           array(
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO',
+            0 => array(
+              'name' => 'day_ro_modified_sale_stage',
+              'customCode' => '  
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p>{$fields.day_ro_modified_sale_stage.value}</p>
+                  </div>
+                </div>
+                ',
+            ),
+            1 => ""
           ),
         ),
       ),
     ),
-  ),
-);
+  );

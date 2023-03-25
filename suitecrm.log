@@ -18,3 +18,51 @@ Sat Mar 25 04:15:37 2023 [11290][1][FATAL] IP Address mismatch: SESSION IP: 171.
 Sat Mar 25 21:02:12 2023 [10324][1][FATAL] 
 Sat Mar 25 14:04:19 2023 [26915][1][FATAL] IP Address mismatch: SESSION IP: 1.52.109.185 CLIENT IP: 171.253.128.43
 Sat Mar 25 14:04:41 2023 [10273][1][FATAL] IP Address mismatch: SESSION IP: 1.52.109.185 CLIENT IP: 171.253.128.43
+Sat Mar 25 21:34:31 2023 [10324][1][FATAL] 
+Sat Mar 25 21:34:56 2023 [26921][1][FATAL] ADMIN
+Sat Mar 25 14:34:57 2023 [11290][1][FATAL] CALL AJAX: 
+Sat Mar 25 14:34:57 2023 [11290][1][FATAL] WHERE: 
+Sat Mar 25 14:34:57 2023 [11290][1][FATAL] 
+Sat Mar 25 14:34:57 2023 [11290][1][FATAL] WHERE1: 
+Sat Mar 25 14:34:57 2023 [11290][1][FATAL] 
+Sat Mar 25 14:35:18 2023 [11279][1][FATAL] CALL AJAX: 
+Sat Mar 25 14:35:18 2023 [11279][1][FATAL] WHERE: 
+Sat Mar 25 14:35:18 2023 [11279][1][FATAL] 
+Sat Mar 25 14:35:18 2023 [11279][1][FATAL] WHERE1: 
+Sat Mar 25 14:35:18 2023 [11279][1][FATAL] 
+Sat Mar 25 14:35:44 2023 [10273][1][FATAL] CALL AJAX: 
+Sat Mar 25 14:35:44 2023 [10273][1][FATAL] WHERE: 
+Sat Mar 25 14:35:44 2023 [10273][1][FATAL] 
+Sat Mar 25 14:35:44 2023 [10273][1][FATAL] WHERE1: 
+Sat Mar 25 14:35:44 2023 [10273][1][FATAL] 
+Sat Mar 25 14:40:30 2023 [26915][1][FATAL] CALL AJAX: 
+Sat Mar 25 14:40:30 2023 [26915][1][FATAL] WHERE: 
+Sat Mar 25 14:40:30 2023 [26915][1][FATAL] 
+Sat Mar 25 14:40:30 2023 [26915][1][FATAL] WHERE1: 
+Sat Mar 25 14:40:30 2023 [26915][1][FATAL] 
+Sat Mar 25 14:42:04 2023 [26921][1][FATAL] CALL AJAX: 
+Sat Mar 25 14:42:04 2023 [26921][1][FATAL] WHERE: 
+Sat Mar 25 14:42:04 2023 [26921][1][FATAL] 
+Sat Mar 25 14:42:04 2023 [26921][1][FATAL] WHERE1: 
+Sat Mar 25 14:42:04 2023 [26921][1][FATAL] 
+Sat Mar 25 14:48:38 2023 [11306][1][FATAL] User update error: Temp User is not retrieved at ID 3ab483df-f14a-f4fb-5a13-641f093bfa77, boolean given
+Sat Mar 25 14:48:38 2023 [11306][1][FATAL] Email address save error
+Sat Mar 25 14:48:55 2023 [26917][1][FATAL] Email address save error
+Sat Mar 25 14:49:14 2023 [11419][1][FATAL] User update error: Temp User is not retrieved at ID 8c5dd2a7-da95-cef7-8f21-641f09cb24a5, boolean given
+Sat Mar 25 14:49:14 2023 [11419][1][FATAL] Email address save error
+Sat Mar 25 14:49:21 2023 [10182][1][FATAL] Email address save error
+Sat Mar 25 14:49:37 2023 [15291][1][FATAL] User update error: Temp User is not retrieved at ID e1ef86b3-a1ac-d01b-9235-641f0adf1546, boolean given
+Sat Mar 25 14:49:38 2023 [15291][1][FATAL] Email address save error
+Sat Mar 25 14:49:46 2023 [26921][1][FATAL] Email address save error
+Sat Mar 25 14:50:04 2023 [11249][1][FATAL] User update error: Temp User is not retrieved at ID 10415bd8-b0c1-dd85-2489-641f0a02689a, boolean given
+Sat Mar 25 14:50:04 2023 [11249][1][FATAL] Email address save error
+Sat Mar 25 14:50:14 2023 [11306][1][FATAL] Email address save error
+Sat Mar 25 21:50:27 2023 [11260][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] ADMIN
+Sat Mar 25 14:50:40 2023 [26921][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] CALL AJAX: 
+Sat Mar 25 14:50:40 2023 [26921][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE: 
+Sat Mar 25 14:50:40 2023 [26921][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] 
+Sat Mar 25 14:50:40 2023 [26921][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE1: 
+Sat Mar 25 14:50:40 2023 [26921][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL]  (leads.created_by = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5' OR leads.modified_user_id = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5') AND leads.data_sources != '9' AND leads.data_sources != '10'
+Sat Mar 25 14:50:44 2023 [11390][-none-][FATAL] hello
+Sat Mar 25 14:50:44 2023 [11390][-none-][FATAL] Error: Query limit of 1000 reached for Leads module.
+Sat Mar 25 14:50:44 2023 [11249][-none-][FATAL] Error: Query limit of 1000 reached for Leads module.
