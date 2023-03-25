@@ -337,6 +337,10 @@ class ViewList extends SugarView
     {
         if (isset($_REQUEST['query'])) {
             // we have a query
+
+            global $current_user;
+            $user = BeanFactory::getBean('Users', $current_user->id);
+            
             if (!empty($_SERVER['HTTP_REFERER']) && preg_match('/action=EditView/', $_SERVER['HTTP_REFERER'])) { // from EditView cancel
                 $this->searchForm->populateFromArray($this->storeQuery->query);
             } else {
@@ -344,6 +348,22 @@ class ViewList extends SugarView
             }
 
             $where_clauses = $this->searchForm->generateSearchWhere(true, $this->seed->module_dir);
+
+            if ($_COOKIE['role']){
+                $role = $_COOKIE['role'];
+                if ($role == "MKT"){
+                    array_push($where_clauses," (leads.created_by = '{$user->id}' OR leads.modified_user_id = '{$user->id}') AND leads.data_sources != '9' AND leads.data_sources != '10'");
+                }
+
+                if ($role == "RO"){
+                    array_push($where_clauses," (leads.created_by = '{$user->id}') OR (leads.modified_user_id = '{$user->id}' AND leads.ro_modified_sale_stage = true)  OR (leads.ro_name = '{$user->id}' AND leads.sale_stage = '10' AND leads.sale_stage IS NOT NULL AND leads.sale_stage != '0' AND leads.sale_stage != '')");
+                }
+
+                if ($role == "HO"){
+                    array_push($where_clauses," (leads.ho_name = '{$user->id}' AND leads.service = '1')");
+                }
+                
+            }
 
             if (count($where_clauses) > 0) {
                 $this->where = '(' . implode(' ) AND ( ', $where_clauses) . ')';
