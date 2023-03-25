@@ -78,4 +78,5 @@
       ),
     ),
   ),
+  'custom_fields' => false,
 );

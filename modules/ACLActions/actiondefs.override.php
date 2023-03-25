@@ -135,6 +135,30 @@ $GLOBALS['ACLActions'] = array(
                                     'label'=>'LBL_ACTION_MASSUPDATE',
                                     'default'=>ACL_ALLOW_ALL,
                                 ),
+                        'super_mkt'=>
+                                array(
+                                    'aclaccess'=>array(ACL_ALLOW_ENABLED,ACL_ALLOW_DEFAULT, ACL_ALLOW_DISABLED),
+                                    'label'=>'LBL_ACTION_SUPER_MKT',
+                                    'default'=>ACL_ALLOW_DISABLED,
+                                ),
+                        'mkt'=>
+                            array(
+                                'aclaccess'=>array(ACL_ALLOW_ENABLED,ACL_ALLOW_DEFAULT, ACL_ALLOW_DISABLED),
+                                'label'=>'LBL_ACTION_MKT',
+                                'default'=>ACL_ALLOW_DISABLED,
+                            ),
+                        'ro'=>
+                            array(
+                                'aclaccess'=>array(ACL_ALLOW_ENABLED,ACL_ALLOW_DEFAULT, ACL_ALLOW_DISABLED),
+                                'label'=>'LBL_ACTION_RO',
+                                'default'=>ACL_ALLOW_DISABLED,
+                            ),
+                        'ho'=>
+                            array(
+                                'aclaccess'=>array(ACL_ALLOW_ENABLED,ACL_ALLOW_DEFAULT, ACL_ALLOW_DISABLED),
+                                'label'=>'LBL_ACTION_HO',
+                                'default'=>ACL_ALLOW_DISABLED,
+                            ),
                         
                     
                 ),),

@@ -150,4 +150,5 @@
       ),
     ),
   ),
+  'custom_fields' => false,
 );

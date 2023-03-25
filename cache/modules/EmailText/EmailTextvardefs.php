@@ -104,4 +104,5 @@
       ),
     ),
   ),
+  'custom_fields' => false,
 );

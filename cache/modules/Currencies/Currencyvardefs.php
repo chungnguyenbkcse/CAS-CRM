@@ -121,4 +121,5 @@
       ),
     ),
   ),
+  'custom_fields' => false,
 );

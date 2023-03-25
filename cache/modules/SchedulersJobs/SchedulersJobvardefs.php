@@ -284,4 +284,5 @@
   array (
     'assignable' => 'assignable',
   ),
+  'custom_fields' => false,
 );

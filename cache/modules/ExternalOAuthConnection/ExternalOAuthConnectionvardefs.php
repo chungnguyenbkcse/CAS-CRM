@@ -409,4 +409,5 @@
     'security_groups' => 'security_groups',
     'basic' => 'basic',
   ),
+  'custom_fields' => false,
 );

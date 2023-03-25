@@ -221,4 +221,5 @@
       ),
     ),
   ),
+  'custom_fields' => false,
 );
