@@ -1,0 +1,11 @@
+Sat Mar 25 03:41:03 2023 [11396][-none-][FATAL] Mysqli_query failed.
+Sat Mar 25 03:41:03 2023 [11396][-none-][FATAL] Error creating table: fields_meta_data: Query Failed: CREATE TABLE fields_meta_data (`id` varchar(255)  NOT NULL ,`name` varchar(255)  NULL ,`vname` varchar(255)  NULL ,`comments` varchar(255)  NULL ,`help` varchar(255)  NULL ,`custom_module` varchar(255)  NULL ,`type` varchar(255)  NULL ,`len` int(11)  NULL ,`required` bool  DEFAULT '0' NULL ,`default_value` varchar(255)  NULL ,`date_modified` datetime  NULL ,`deleted` bool  DEFAULT '0' NULL ,`audited` bool  DEFAULT '0' NULL ,`massupdate` bool  DEFAULT '0' NULL ,`duplicate_merge` smallint  DEFAULT '0' NULL ,`reportable` bool  DEFAULT '1' NULL ,`importable` varchar(255)  NULL ,`ext1` varchar(255)  NULL ,`ext2` varchar(255)  NULL ,`ext3` varchar(255)  NULL ,`ext4` text  NULL  , PRIMARY KEY (id),   KEY idx_meta_id_del (id, deleted),   KEY idx_meta_cm_del (custom_module, deleted)) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci: MySQL error 1071: Specified key was too long; max key length is 767 bytes
+Sat Mar 25 03:43:03 2023 [10331][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
+Sat Mar 25 03:43:03 2023 [10331][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Sat Mar 25 03:43:03 2023 [10331][1][FATAL] Email address save error
+Sat Mar 25 03:43:11 2023 [10331][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Sat Mar 25 03:43:11 2023 [10331][1][SECURITY] Setting logger_file_ext to '.log'.
+Sat Mar 25 03:43:11 2023 [10331][1][SECURITY] Setting logger_file_name to ''.
+Sat Mar 25 03:43:11 2023 [10331][1][SECURITY] Log file extension can't be blank.
+Sat Mar 25 03:43:11 2023 [10331][1][SECURITY] Setting logger_file_name to ''.
+Sat Mar 25 03:43:11 2023 [10331][1][SECURITY] Log file extension can't be blank.
