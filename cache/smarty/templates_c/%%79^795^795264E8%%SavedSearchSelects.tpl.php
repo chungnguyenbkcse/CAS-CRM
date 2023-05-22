@@ -1,5 +1,5 @@
-<?php /* Smarty version 2.6.33, created on 2023-03-25 14:40:30
-         compiled from modules/SavedSearch/SavedSearchSelects.tpl */ ?>
+<?php /* Smarty version 2.6.33, created on 2023-05-11 10:28:25
+         compiled from custom/modules/SavedSearch/SavedSearchSelects.tpl */ ?>
 
 <?php if ($this->_tpl_vars['SAVED_SEARCHES_OPTIONS'] != null): ?>
 <select style="width: auto !important; min-width: 150px;" name='saved_search_select' id='saved_search_select' onChange='SUGAR.savedViews.shortcut_select(this, "<?php echo $this->_tpl_vars['SEARCH_MODULE']; ?>

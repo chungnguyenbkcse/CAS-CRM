@@ -66,3 +66,28 @@ Sat Mar 25 14:50:40 2023 [26921][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL]  (
 Sat Mar 25 14:50:44 2023 [11390][-none-][FATAL] hello
 Sat Mar 25 14:50:44 2023 [11390][-none-][FATAL] Error: Query limit of 1000 reached for Leads module.
 Sat Mar 25 14:50:44 2023 [11249][-none-][FATAL] Error: Query limit of 1000 reached for Leads module.
+Sat Mar 25 15:00:54 2023 [10157][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] CALL AJAX: 
+Sat Mar 25 15:00:54 2023 [10157][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE: 
+Sat Mar 25 15:00:54 2023 [10157][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] 
+Sat Mar 25 15:00:54 2023 [10157][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE1: 
+Sat Mar 25 15:00:54 2023 [10157][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] ( (leads.created_by = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5' OR leads.modified_user_id = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5') AND leads.data_sources != '9' AND leads.data_sources != '10')
+Sun Mar 26 09:47:13 2023 [10250][1][FATAL] MKT
+Sun Mar 26 02:48:10 2023 [10233][1][FATAL] Email address save error
+Sun Mar 26 02:50:26 2023 [10324][1][FATAL] Email address save error
+Sun Mar 26 09:50:45 2023 [26917][1][FATAL] ADMIN
+Wed Mar 29 10:14:11 2023 [11406][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Mar 29 10:14:11 2023 [11406][-none-][FATAL] FAILED LOGIN:attempts[1], ip[42.112.244.184], username[admin]
+Thu May 11 10:27:51 2023 [4960][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu May 11 10:27:51 2023 [4960][-none-][FATAL] FAILED LOGIN:attempts[1], ip[14.169.117.14], username[admin]
+Thu May 11 10:27:53 2023 [4971][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu May 11 10:27:53 2023 [4971][-none-][FATAL] FAILED LOGIN:attempts[2], ip[14.169.117.14], username[admin]
+Thu May 11 10:28:03 2023 [4975][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu May 11 10:28:03 2023 [4975][-none-][FATAL] FAILED LOGIN:attempts[1], ip[14.169.117.14], username[admin]
+Thu May 11 10:28:07 2023 [764][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu May 11 10:28:07 2023 [764][-none-][FATAL] FAILED LOGIN:attempts[1], ip[14.169.117.14], username[admin]
+Thu May 11 17:28:17 2023 [9541][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] 
+Thu May 11 10:28:25 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] CALL AJAX: 
+Thu May 11 10:28:25 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE: 
+Thu May 11 10:28:25 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] 
+Thu May 11 10:28:26 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE1: 
+Thu May 11 10:28:26 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] ( (leads.created_by = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5' OR leads.modified_user_id = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5') AND leads.data_sources != '9' AND leads.data_sources != '10')

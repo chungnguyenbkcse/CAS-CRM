@@ -80,6 +80,7 @@ $app_list_strings = array(
         '5' => 'DL TB',
         '6' => 'Đồng nai',
         '7' => 'Song Thao',
+        '8' => 'Nha trang',
     ),
     'receiving_branch_dom_1' => array(
         '' => '',
