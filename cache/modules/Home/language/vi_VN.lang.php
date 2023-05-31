@@ -1,5 +1,5 @@
 <?php
-// created: 2023-05-31 03:36:14
+// created: 2023-05-31 04:05:54
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Trang chủ',
   'LBL_NEW_FORM_TITLE' => 'Liên hệ mới',

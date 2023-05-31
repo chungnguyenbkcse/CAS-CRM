@@ -149,3 +149,10 @@ Wed May 31 03:36:28 2023 [3260][1][FATAL] WHERE1:
 Wed May 31 03:36:28 2023 [3260][1][FATAL] 
 Wed May 31 03:39:44 2023 [2166][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
 Wed May 31 03:39:44 2023 [2166][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_khach_le
+Wed May 31 10:56:43 2023 [3260][1][FATAL] 
+Wed May 31 03:57:11 2023 [1867][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 03:57:11 2023 [1867][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_khach_le
+Wed May 31 04:00:28 2023 [1866][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 04:00:28 2023 [1866][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_khach_le
+Wed May 31 04:07:16 2023 [6897][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 04:07:16 2023 [6897][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_dai_ly
