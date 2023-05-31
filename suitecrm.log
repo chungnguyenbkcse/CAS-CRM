@@ -91,3 +91,53 @@ Thu May 11 10:28:25 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHE
 Thu May 11 10:28:25 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] 
 Thu May 11 10:28:26 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] WHERE1: 
 Thu May 11 10:28:26 2023 [4992][8c5dd2a7-da95-cef7-8f21-641f09cb24a5][FATAL] ( (leads.created_by = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5' OR leads.modified_user_id = '8c5dd2a7-da95-cef7-8f21-641f09cb24a5') AND leads.data_sources != '9' AND leads.data_sources != '10')
+Mon May 22 14:29:34 2023 [16431][1][FATAL] 
+Mon May 22 07:30:42 2023 [26885][1][FATAL] CALL AJAX: 
+Mon May 22 07:30:42 2023 [26885][1][FATAL] WHERE: 
+Mon May 22 07:30:42 2023 [26885][1][FATAL] 
+Mon May 22 07:30:43 2023 [26885][1][FATAL] WHERE1: 
+Mon May 22 07:30:43 2023 [26885][1][FATAL] 
+Tue May 23 07:38:42 2023 [16411][1][FATAL] ADMIN
+Tue May 23 00:39:04 2023 [26894][1][FATAL] CALL AJAX: 
+Tue May 23 00:39:04 2023 [26894][1][FATAL] WHERE: 
+Tue May 23 00:39:04 2023 [26894][1][FATAL] 
+Tue May 23 00:39:04 2023 [26894][1][FATAL] WHERE1: 
+Tue May 23 00:39:04 2023 [26894][1][FATAL] 
+Tue May 23 07:44:21 2023 [16368][3ab483df-f14a-f4fb-5a13-641f093bfa77][FATAL] 
+Tue May 30 14:52:04 2023 [16368][1][FATAL] ADMIN
+Tue May 30 07:59:30 2023 [26913][1][FATAL] CALL AJAX: 
+Tue May 30 07:59:30 2023 [26913][1][FATAL] WHERE: 
+Tue May 30 07:59:30 2023 [26913][1][FATAL] 
+Tue May 30 07:59:30 2023 [26913][1][FATAL] WHERE1: 
+Tue May 30 07:59:30 2023 [26913][1][FATAL] 
+Tue May 30 08:16:00 2023 [16406][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Tue May 30 08:16:00 2023 [16406][1][FATAL] Exception in Controller: There is no action by that name: list1
+Tue May 30 08:16:07 2023 [16357][1][FATAL] CALL AJAX: 
+Tue May 30 08:16:07 2023 [16357][1][FATAL] WHERE: 
+Tue May 30 08:16:07 2023 [16357][1][FATAL] 
+Tue May 30 08:16:07 2023 [16357][1][FATAL] WHERE1: 
+Tue May 30 08:16:07 2023 [16357][1][FATAL] 
+Tue May 30 08:16:15 2023 [16357][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Tue May 30 08:16:15 2023 [16357][1][FATAL] Exception in Controller: There is no action by that name: list1
+Tue May 30 08:16:19 2023 [7556][1][FATAL] CALL AJAX: 
+Tue May 30 08:16:19 2023 [7556][1][FATAL] WHERE: 
+Tue May 30 08:16:19 2023 [7556][1][FATAL] 
+Tue May 30 08:16:19 2023 [7556][1][FATAL] WHERE1: 
+Tue May 30 08:16:19 2023 [7556][1][FATAL] 
+Tue May 30 08:16:21 2023 [7572][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Tue May 30 08:16:21 2023 [7572][1][FATAL] Exception in Controller: There is no action by that name: list1
+Tue May 30 08:16:31 2023 [15115][1][FATAL] CALL AJAX: 
+Tue May 30 08:16:31 2023 [15115][1][FATAL] WHERE: 
+Tue May 30 08:16:31 2023 [15115][1][FATAL] 
+Tue May 30 08:16:31 2023 [15115][1][FATAL] WHERE1: 
+Tue May 30 08:16:31 2023 [15115][1][FATAL] 
+Tue May 30 08:16:37 2023 [16427][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Tue May 30 08:16:37 2023 [16427][1][FATAL] Exception in Controller: There is no action by that name: list1
+Tue May 30 08:25:45 2023 [16411][1][FATAL] CALL AJAX: 
+Tue May 30 08:25:45 2023 [16411][1][FATAL] WHERE: 
+Tue May 30 08:25:45 2023 [16411][1][FATAL] 
+Tue May 30 08:25:45 2023 [16411][1][FATAL] WHERE1: 
+Tue May 30 08:25:45 2023 [16411][1][FATAL] 
+Tue May 30 08:28:12 2023 [16431][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Tue May 30 08:28:12 2023 [16431][1][FATAL] Exception in Controller: There is no action by that name: cong_no
+Wed May 31 10:29:56 2023 [1863][1][FATAL] ADMIN

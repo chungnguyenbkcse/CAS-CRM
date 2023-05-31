@@ -201,7 +201,7 @@ $app_list_strings = array(
     ),
 
     'language_pack_name' => 'US English',
-    'moduleList' => array(
+    /* 'moduleList' => array(
         'Home' => 'Home',
         'ResourceCalendar' => 'Resource Calendar',
         'Contacts' => 'Contacts',
@@ -262,6 +262,19 @@ $app_list_strings = array(
         'OAuthTokens' => 'OAuth Tokens',
         'OAuth2Clients' => 'OAuth Clients',
         'OAuth2Tokens' => 'OAuth Tokens',
+    ), */
+
+    'moduleList' => array(
+        'Home' => 'Home',
+        'Dashboard' => 'Dashboard',
+        'Leads' => 'Lead',
+        'Customer/agent/employee information' => 'Customer/agent/employee information',
+        'Transaction management and agency booking' => 'Transaction management and agency booking',
+        'Booking funds' => 'Booking funds',
+        'Card delivery/receipt management' => 'Card delivery/receipt management',
+        'Vending machine management' => 'Vending machine management',
+        'Approve' => 'Approve',
+        'Interchange Management' => 'Interchange Management',
     ),
 
     'moduleListSingular' => array(
@@ -1911,6 +1924,7 @@ $app_strings = array(
     'LBL_TABGROUP_ACTIVITIES' => 'Activities',
     'LBL_TABGROUP_COLLABORATION' => 'Collaboration',
     'LBL_TABGROUP_MARKETING' => 'Marketing',
+    'LBL_TABGROUP_MIDAS' => 'Midas',
     'LBL_TABGROUP_OTHER' => 'Other',
     'LBL_TABGROUP_SALES' => 'Sales',
     'LBL_TABGROUP_SUPPORT' => 'Support',

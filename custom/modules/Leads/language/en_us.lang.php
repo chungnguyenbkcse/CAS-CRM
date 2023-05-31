@@ -46,6 +46,7 @@ $mod_strings = array(
     'LBL_IS_RECORD' => 'Is record ?',
     'LBL_DAY_SHARED_FOR_RO' => 'Day shared for RO',
     'LNK_LEAD_LIST_1' => 'Return Leads',
+    'LNK_CONG_NO' => 'Debt control',
     'LBL_IS_RECORD' => 'Record',
     'LBL_LEAD_STATUS_RO' => 'Lead status ro',
     'LBL_CARD_NUMBER' => 'Card number',
