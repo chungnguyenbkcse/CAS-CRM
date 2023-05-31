@@ -93,6 +93,9 @@ if ($_COOKIE['role']) {
             $module_menu[] = array("index.php?module=Leads&action=index&return_module=Leads&return_action=DetailView", $mod_strings['LNK_LEAD_LIST'], "List", 'Leads');
         }
         if (ACLController::checkAccess('Leads', 'list', true)) {
+            $module_menu[] = array("index.php?module=Leads&action=index&return_module=Leads&return_action=DetailView", $mod_strings['LNK_CONG_NO'], "List", 'Leads');
+        }
+        if (ACLController::checkAccess('Leads', 'list', true)) {
             $module_menu[] = array("index.php?module=Leads&action=list1&return_module=Leads&return_action=DetailView", $mod_strings['LNK_LEAD_LIST_1'], "List", 'Leads');
         }
         if (ACLController::checkAccess('Leads', 'import', true)) {

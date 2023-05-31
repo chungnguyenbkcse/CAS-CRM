@@ -1,5 +1,5 @@
 <?php
-// created: 2023-05-23 00:43:56
+// created: 2023-05-31 03:35:40
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -251,6 +251,7 @@ $mod_strings = array (
   'LBL_IS_RECORD' => 'Record',
   'LBL_DAY_SHARED_FOR_RO' => 'Day shared for RO',
   'LNK_LEAD_LIST_1' => 'Return Leads',
+  'LNK_CONG_NO' => 'Debt control',
   'LBL_LEAD_STATUS_RO' => 'Lead status ro',
   'LBL_CARD_NUMBER' => 'Card number',
   'LBL_DAY_RO_MODIFIED_SALE_STAGE' => 'Day RO modified sale stage',

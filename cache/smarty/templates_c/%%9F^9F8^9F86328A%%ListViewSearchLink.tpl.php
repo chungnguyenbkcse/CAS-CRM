@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.33, created on 2023-05-30 07:59:31
+<?php /* Smarty version 2.6.33, created on 2023-05-31 03:36:28
          compiled from include/ListView/ListViewSearchLink.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'include/ListView/ListViewSearchLink.tpl', 67, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.33, created on 2023-05-30 08:32:53
+<?php /* Smarty version 2.6.33, created on 2023-05-31 03:36:07
          compiled from custom/themes/SuiteP/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 61, false),array('function', 'counter', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 211, false),array('function', 'sugar_translate', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 528, false),array('modifier', 'lower', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),array('modifier', 'replace', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.33, created on 2023-05-23 00:44:11
+<?php /* Smarty version 2.6.33, created on 2023-05-31 03:36:08
          compiled from /home/www/html/cas.tranthu.vn/include/utils/recaptcha_disabled.tpl */ ?>
 <?php echo '
 <script>

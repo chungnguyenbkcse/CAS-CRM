@@ -1,5 +1,5 @@
 <?php
-// created: 2023-05-23 00:44:22
+// created: 2023-05-31 03:36:15
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (

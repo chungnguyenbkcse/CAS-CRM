@@ -1,0 +1,332 @@
+<!--
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+-->
+<!-- BEGIN: Quote_Subject -->
+<p>Trích dẫn SuiteCRM - {QUOTE_SUBJECT}</p>
+<!-- END: Quote_Subject -->
+<!-- BEGIN: Quote -->
+<p><b>{ASSIGNER}</b> Đã phân bổ Báo giá cho <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {QUOTE_SUBJECT}<br/>
+Status: {QUOTE_STATUS}<br/>
+Expected Close Date: {QUOTE_CLOSEDATE}<br/>
+Description: {QUOTE_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem Báo giá này</a>.</p>
+<!-- END: Quote -->
+
+<!-- BEGIN: Account_Subject -->
+<p>Tài khoản SuiteCRM - {ACCOUNT_NAME}</p>
+<!-- END: Account_Subject -->
+<!-- BEGIN: Account -->
+<p><b>{ASSIGNER}</b> đã chỉ định một tài khoản cho <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Name: {ACCOUNT_NAME}<br/>
+Type: {ACCOUNT_TYPE}<br/>
+Description: {ACCOUNT_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét tài khoản này</a>.</p>
+<!-- END: Account -->
+
+<!-- BEGIN: Case_Subject -->
+<p>Trường hợp SuiteCRM - {CASE_SUBJECT}</p>
+<!-- END: Case_Subject -->
+<!-- BEGIN: Case -->
+<p><b>{ASSIGNER}</b> đã giao một trường hợp cho<b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {CASE_SUBJECT}<br/>
+Priority: {CASE_PRIORITY}<br/>
+Status: {CASE_STATUS}<br/>
+Description: {CASE_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét trường hợp này</a>.</p>
+<!-- END: Case -->
+
+<!-- BEGIN: Task_Subject -->
+<p>Nhiệm vụ SuiteCRM - {TASK_SUBJECT}</p>
+<!-- END: Task_Subject -->
+<!-- BEGIN: Task -->
+<p><b>{ASSIGNER}</b> đã giao một nhiệm vụ để <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {TASK_SUBJECT}<br/>
+Priority: {TASK_PRIORITY}<br/>
+Due Date: {TASK_DUEDATE}<br/>
+Status: {TASK_STATUS}<br/>
+Description: {TASK_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem lại các nhiệm vụ này</a>.</p>
+<!-- END: Task -->
+
+<!-- BEGIN: Meeting_Subject -->
+<p>Hội họp SuiteCRM - {MEETING_SUBJECT}</p>
+<!-- END: Meeting_Subject -->
+<!-- BEGIN: Meeting -->
+<p>Đến: {MEETING_TO}</p>
+<p><b>{ASSIGNER}</b> đã mời bạn đến một cuộc họp</p>
+<p>
+Subject: {MEETING_SUBJECT}<br/>
+Location: {MEETING_LOCATION}<br/>
+Start Date: {MEETING_STARTDATE}<br/>
+End Date: {MEETING_ENDDATE}
+</p>
+<p>
+<!-- BEGIN: Meeting_External_API -->
+Cuộc họp URL: {MEETING_URL}
+</p>
+<!-- END: Meeting_External_API -->
+<p>Mô tả: {MEETING_DESCRIPTION}<br/>
+</p>
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Chấp nhận cuộc họp</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>Tạm chấp nhận cuộc họp</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Từ chối cuộc họp này</a>.</p>
+<!-- END: Meeting -->
+
+<!-- BEGIN: MeetingSpecial_Subject -->
+<p>Hội họp SuiteCRM - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingSpecial -->
+<p><b>{ASSIGNER}</b> đã chỉ định một cuộc họp để <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {MEETING_SUBJECT}<br/>
+Location: {MEETING_LOCATION}<br/>
+Status: {MEETING_STATUS}<br/>
+Start Date: {MEETING_STARTDATE}<br/>
+End Date: {MEETING_ENDDATE}<br/>
+Description: {MEETING_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét lại cuộc họp này</a>.</p>
+<!-- END: MeetingSpecial -->
+
+<!-- BEGIN: MeetingReminder_Subject -->
+<p>Nhắc nhở cuộc họp - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+<p>
+Title: {MEETING_SUBJECT}<br/>
+When: {MEETING_STARTDATE}<br/>
+Location: {MEETING_LOCATION}<br/>
+Created By: {MEETING_CREATED_BY}
+</p>
+<!-- END: MeetingReminder -->
+
+<!-- BEGIN: Email_Subject -->
+<p>SuiteCRM Email - {EMAIL_SUBJECT}</p>
+<!-- END: Email_Subject -->
+<!-- BEGIN: Email -->
+<p><b>{ASSIGNER}</b> đã chỉ định một Email đến <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {EMAIL_SUBJECT}<br/>
+Date Sent: {EMAIL_DATESENT}
+</p>
+<p>Bạn có thể <a href={URL}>xem lại Email này</a>.</p>
+<!-- END: Email -->
+
+<!-- BEGIN: Contact_Subject -->
+<p>Liên hệ SuiteCRM - {CONTACT_NAME}</p>
+<!-- END: Contact_Subject -->
+<!-- BEGIN: Contact -->
+<p><b>{ASSIGNER}</b> đã chỉ định một số liên lạc để <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Name: {CONTACT_NAME}<br/>
+Description: {CONTACT_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem lại liên hệ này</a>.</p>
+<!-- END: Contact -->
+
+<!-- BEGIN: Lead_Subject -->
+<p>Đầu mối SuiteCRM - {LEAD_NAME}</p>
+<!-- END: Lead_Subject -->
+<!-- BEGIN: Lead -->
+<p><b>{ASSIGNER}</b> đã chỉ định một chỉ dẫn để <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Name: {LEAD_NAME}<br/>
+Lead Source: {LEAD_SOURCE}<br/>
+Status: {LEAD_STATUS}<br/>
+Description: {LEAD_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét Đầu mối điều này</a>.</p>
+<!-- END: Lead -->
+
+<!-- BEGIN: Opportunity_Subject -->
+<p>Cơ hội SuiteCRM - {OPPORTUNITY_NAME}</p>
+<!-- END: Opportunity_Subject -->
+<!-- BEGIN: Opportunity -->
+<p><b>{ASSIGNER}</b> đã chỉ định một cơ hội để <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Name: {OPPORTUNITY_NAME}<br/>
+Amount: {OPPORTUNITY_AMOUNT}<br/>
+Expected Close Date: {OPPORTUNITY_CLOSEDATE}<br/>
+Sales Stage: {OPPORTUNITY_STAGE}<br/>
+Description: {OPPORTUNITY_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét cơ hội này</a>.</p>
+<!-- END: Opportunity -->
+
+<!-- BEGIN: Bug_Subject -->
+<p>SuiteCRM lỗi - {BUG_SUBJECT}</p>
+<!-- END: Bug_Subject -->
+<!-- BEGIN: Bug -->
+<p><b>{ASSIGNER}</b> đã chỉ định một lỗi với <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Bug Number: {BUG_BUG_NUMBER}<br/>
+Subject: {BUG_SUBJECT}<br/>
+Type: {BUG_TYPE}<br/>
+Priority: {BUG_PRIORITY}<br/>
+Status: {BUG_STATUS}<br/>
+Resolution: {BUG_RESOLUTION}<br/>
+Release: {BUG_RELEASE}<br/>
+Description: {BUG_DESCRIPTION}<br/>
+Work Log: {BUG_WORK_LOG}
+</p>
+<p>Bạn có thể <a href={URL}>xem lại lỗi này</a>.</p>
+<!-- END: Bug -->
+
+<!-- BEGIN: Default_Subject -->
+<p>SuiteCRM - Chỉ định {OBJECT}</p>
+<!-- END: Default_Subject -->
+<!-- BEGIN: Default -->
+<p><b>{ASSIGNER}</b> đã chỉ định a(n) {OBJECT} cho <b>{ASSIGNED_USER}</b>.</p>
+<p>Bạn có thể <a href={URL}>xem xét này {OBJECT}</a>.</p>
+<!-- END: Default -->
+
+<!-- BEGIN: Call_Subject -->
+<p>Cuộc gọi SuiteCRM - {CALL_SUBJECT}</p>
+<!-- END: Call_Subject -->
+<!-- BEGIN: Call -->
+<p>Đến: {CALL_TO}</p>
+<p><b>{ASSIGNER}</b> đã mời bạn đến một cuộc gọi</p>
+<p>
+Subject: {CALL_SUBJECT}<br/>
+Status: {CALL_STATUS}<br/>
+Start Date: {CALL_STARTDATE}<br/>
+Duration: {CALL_HOURS}h, {CALL_MINUTES}m<br/>
+Description: {CALL_DESCRIPTION}<br/>
+</p>
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Chấp nhận cuộc gọi này</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>Tạm chấp nhận cuộc gọi này</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Từ chối cuộc gọi này</a>.</p>
+<!-- END: Call -->
+
+<!-- BEGIN: CallSpecial_Subject -->
+<p>Cuộc gọi SuiteCRM - {CALL_SUBJECT}</p>
+<!-- END: CallSpecial_Subject -->
+<!-- BEGIN: CallSpecial -->
+<p><b>{ASSIGNER}</b> đã chỉ định một cuộc gọi đến <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {CALL_SUBJECT}<br/>
+Status: {CALL_STATUS}<br/>
+Start Date: {CALL_STARTDATE}<br/>
+Duration: {CALL_HOURS}h, {CALL_MINUTES}m<br/>
+Description: {CALL_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem lại các cuộc gọi này</a>.</p>
+<!-- END: CallSpecial -->
+
+<!-- BEGIN: CallReminder_Subject -->
+<p>Lời nhắc cuộc gọi - {CALL_SUBJECT}</p>
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+<p>
+Title: {CALL_SUBJECT}<br/>
+When: {CALL_STARTDATE}<br/>
+Created By: {CALL_CREATED_BY}
+</p>
+<!-- END: CallReminder -->
+
+<!-- BEGIN: Campaign_Subject -->
+<p>Chiến dịch SuiteCRM - {CAMPAIGN_NAME}</p>
+<!-- END: Campaign_Subject -->
+<!-- BEGIN: Campaign -->
+<p><b>{ASSIGNER}</b> đã chỉ định một chiến dịch để <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Subject: {CAMPAIGN_NAME}<br/>
+Amount: {CAMPAIGN_AMOUNT}<br/>
+Close Date: {CAMPAIGN_CLOSEDATE}<br/>
+Status: {CAMPAIGN_STATUS}<br/>
+Description: {CAMPAIGN_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét lại chiến dịch này</a>.</p>
+<!-- END: Campaign -->
+
+<!-- BEGIN: Quota_Subject -->
+<p>Dung lượng SuiteCRM - hạn ngạch của bạn cho {QUOTA_TIMEPERIOD}</p>
+<!-- END: Quota_Subject -->
+<!-- BEGIN: Quota -->
+<p><b>{ASSIGNER}</b> đã chỉ định một hạn ngạch cho <b>{ASSIGNED_USER}</b>.</p>
+<p>
+    Amount: {QUOTA_AMOUNT}<br/>
+    Timeperiod: {QUOTA_TIMEPERIOD}
+</p>
+<p>Bạn có thể <a href={QUOTA_URL}>xem xét chuyển nhượng hạn ngạch này</a>.</p>
+<!-- END: Quota -->
+
+<!-- BEGIN: KBDocument_Subject -->
+<p>Tài liệu SuiteCRM - {KBDOCUMENT_NAME}</p>
+<!-- END: KBDocument_Subject -->
+<!-- BEGIN: KBDocument -->
+{NOTIFICATION_MESSAGE}
+
+<p>
+Name: {KBDOCUMENT_NAME}<br/>
+Created Date: {KBDOCUMENT_DATE_CREATED}<br/>
+Created By: {KBDOCUMENT_CREATED_BY}<br/>
+Status: {KBDOCUMENT_STATUS}<br/>
+Description: {KBDOCUMENT_DESCRIPTION}
+</p>
+<p>Bạn có thể <a href={URL}>xem xét tài liệu này</a>.</p>
+<!-- END: KBDocument -->
+
+<!-- BEGIN: Contract_Subject -->
+<p>Hợp đồng SuiteCRM - {CONTRACT_NAME}</p>
+<!-- END: Contract_Subject -->
+<!-- BEGIN: Contract-->
+<p><b>{ASSIGNER}</b> đã chỉ định một hợp đồng để <b>{ASSIGNED_USER}</b>.</p>
+<p>Bạn có thể <a href={URL}>xem xét lại bản hợp đồng này</a>.</p>
+<!-- END:Contract-->
+
+<!-- BEGIN: ContractSpecial_Subject -->
+<p>Hợp đồng SuiteCRM - {CONTRACT_NAME}</p>
+<!-- END: ContractSpecial_Subject -->
+<!-- BEGIN: ContractSpecial -->
+<p>Hợp đồng của bạn: {CONTRACT_NAME} sẽ hết hạn tại {CONTRACT_END_DATE}.</p>
+<p>Bạn có thể <a href={URL}>xem xét bản hợp đồng này</a>.</p>
+<!-- END:ContractSpecial-->
