@@ -3955,4 +3955,5 @@ $app_strings['LBL_SIGNATURE'] = 'Signature';
 
 
 // Add by Chung
-$app_strings['LBL_CONG_NO_KHACH_LE'] = 'Debts of retail customers';
+$app_strings['LBL_CONG_NO_KHACH_LE'] = 'Debts payable by customers';
+$app_strings['LBL_CONG_NO_KHACH_LE_1'] = 'Receivables from customers';

@@ -29,7 +29,7 @@ $(document).ready(function () {
                 </a>
             </li>                                                                                                                        
             <li class="actionmenulinks" role="presentation">
-                <a href="index.php?module=Leads&action=cong_no_khach_le&return_module=Leads&return_action=DetailView" data-action-name="List">
+                <a href="index.php?module=Leads&action=cong_no_khach_le_1&return_module=Leads&return_action=DetailView" data-action-name="List">
                     <div class="side-bar-action-icon">
                         <span class="suitepicon suitepicon-action-list"></span>
                     </div>

@@ -77,6 +77,12 @@ class LeadsController extends SugarController
         return true;
     }
 
+    public function action_cong_no_khach_le_1()
+    {
+        $this->view = 'cong_no_khach_le_1';
+        return true;
+    }
+
     protected function callLegacyCode()
     {
         if (strtolower($this->do_action) == 'convertlead') {

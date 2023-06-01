@@ -309,9 +309,6 @@
                                     
                                 {/foreach}
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý nhân viên</a>
-                                </li>
-                                <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý đại lý</a>
                                 </li>
 

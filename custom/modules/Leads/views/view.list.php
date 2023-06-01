@@ -12,7 +12,7 @@
             require_once('modules/AOS_PDF_Templates/formLetter.php');
             formLetter::LVPopupHtml('Leads');
             //$GLOBALS['log']->fatal("CALL AJAX: ");
-            //echo '<script type="text/javascript" src="custom/modules/Leads/handle_realtime.js"></script>';
+            echo '<script type="text/javascript" src="custom/modules/Leads/js/list.js"></script>';
             parent::preDisplay();
 
             $this->lv = new LeadsListViewSmarty();

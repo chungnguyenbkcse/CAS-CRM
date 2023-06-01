@@ -3717,4 +3717,5 @@ $app_list_strings['LBL_REPORTS_RESTRICTED'] = 'A report you have selected is tar
 
 
 // Add by Chung
-$app_strings['LBL_CONG_NO_KHACH_LE'] = 'Công nợ khách lẽ';
+$app_strings['LBL_CONG_NO_KHACH_LE'] = 'Công nợ phải trả của khách hàng';
+$app_strings['LBL_CONG_NO_KHACH_LE_1'] = 'Công nợ phải thu của khách hàng';
