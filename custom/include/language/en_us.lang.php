@@ -3952,3 +3952,7 @@ $app_strings['LBL_INBOUND_ACCOUNT'] = 'Inbound Account';
 $app_strings['LBL_SYSTEM_ACCOUNT'] = 'System Account';
 $app_strings['LBL_FROM_SYSTEM'] = 'Send From System';
 $app_strings['LBL_SIGNATURE'] = 'Signature';
+
+
+// Add by Chung
+$app_strings['LBL_CONG_NO_KHACH_LE'] = 'Debts of retail customers';

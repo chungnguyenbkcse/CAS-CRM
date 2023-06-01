@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.33, created on 2023-05-30 08:32:53
+<?php /* Smarty version 2.6.33, created on 2023-05-31 08:24:00
          compiled from custom/themes/SuiteP/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 61, false),array('function', 'counter', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 211, false),array('function', 'sugar_translate', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 528, false),array('modifier', 'lower', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),array('modifier', 'replace', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),)), $this); ?>
@@ -382,35 +382,35 @@ _<?php echo $this->_tpl_vars['module']; ?>
                                     
                                 <?php endforeach; endif; unset($_from); ?>
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý nhân viên</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý nhân viên</a>
                                 </li>
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý đại lý</a>
-                                </li>
-
-                                <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=cong_no_khach_le&return_module=Leads&return_action=DetailView">Quản lý công nợ khách lẻ</a>
-                                </li>
-                                <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=cong_no_dai_ly&return_module=Leads&return_action=DetailView">Quản lý công nợ đại lý</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý đại lý</a>
                                 </li>
 
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=tao_booking_noi_bo&return_module=Leads&return_action=DetailView">Tạo booking nội bộ</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no_khach_le&return_module=Leads&return_action=DetailView">Quản lý công nợ khách lẻ</a>
+                                </li>
+                                <li>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no_dai_ly&return_module=Leads&return_action=DetailView">Quản lý công nợ đại lý</a>
                                 </li>
 
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=phe_duyet&return_module=Leads&return_action=DetailView">Phê duyệt</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=tao_booking_noi_bo&return_module=Leads&return_action=DetailView">Tạo booking nội bộ</a>
+                                </li>
+
+                                <li>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=phe_duyet&return_module=Leads&return_action=DetailView">Phê duyệt</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=giao_dich&return_module=Leads&return_action=DetailView">Quản lý giao dịch</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=giao_dich&return_module=Leads&return_action=DetailView">Quản lý giao dịch</a>
                                 </li>
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=chi_phi&return_module=Leads&return_action=DetailView">Quản lý chi phí</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=chi_phi&return_module=Leads&return_action=DetailView">Quản lý chi phí</a>
                                 </li>
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?&action=may_post&return_module=Leads&return_action=DetailView">Quản lý máy post</a>
+                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=may_post&return_module=Leads&return_action=DetailView">Quản lý máy post</a>
                                 </li>
                             </ul>
                         </li>

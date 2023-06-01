@@ -141,3 +141,31 @@ Tue May 30 08:25:45 2023 [16411][1][FATAL]
 Tue May 30 08:28:12 2023 [16431][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
 Tue May 30 08:28:12 2023 [16431][1][FATAL] Exception in Controller: There is no action by that name: cong_no
 Wed May 31 10:29:56 2023 [1863][1][FATAL] ADMIN
+Wed May 31 10:36:14 2023 [3242][1][FATAL] ADMIN
+Wed May 31 03:36:28 2023 [3260][1][FATAL] CALL AJAX: 
+Wed May 31 03:36:28 2023 [3260][1][FATAL] WHERE: 
+Wed May 31 03:36:28 2023 [3260][1][FATAL] 
+Wed May 31 03:36:28 2023 [3260][1][FATAL] WHERE1: 
+Wed May 31 03:36:28 2023 [3260][1][FATAL] 
+Wed May 31 03:39:44 2023 [2166][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 03:39:44 2023 [2166][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_khach_le
+Wed May 31 10:56:43 2023 [3260][1][FATAL] 
+Wed May 31 03:57:11 2023 [1867][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 03:57:11 2023 [1867][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_khach_le
+Wed May 31 04:00:28 2023 [1866][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 04:00:28 2023 [1866][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_khach_le
+Wed May 31 04:07:16 2023 [6897][1][FATAL] Exception handling in /home/www/html/cas.tranthu.vn/include/MVC/Controller/SugarController.php:397
+Wed May 31 04:07:16 2023 [6897][1][FATAL] Exception in Controller: Không có hành động bởi cái tên: cong_no_dai_ly
+Wed May 31 13:34:15 2023 [3268][1][FATAL] ADMIN
+Wed May 31 13:34:27 2023 [3268][1][FATAL] ADMIN
+Wed May 31 06:41:40 2023 [2983][1][FATAL] CALL AJAX: 
+Wed May 31 06:41:40 2023 [2983][1][FATAL] WHERE: 
+Wed May 31 06:41:40 2023 [2983][1][FATAL] 
+Wed May 31 06:41:40 2023 [2983][1][FATAL] WHERE1: 
+Wed May 31 06:41:40 2023 [2983][1][FATAL] 
+Wed May 31 13:47:24 2023 [2021][1][FATAL] ADMIN
+Wed May 31 06:49:09 2023 [3268][1][FATAL] CALL AJAX: 
+Wed May 31 06:49:09 2023 [3268][1][FATAL] WHERE: 
+Wed May 31 06:49:09 2023 [3268][1][FATAL] 
+Wed May 31 06:49:09 2023 [3268][1][FATAL] WHERE1: 
+Wed May 31 06:49:09 2023 [3268][1][FATAL] 
