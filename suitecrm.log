@@ -169,3 +169,4 @@ Wed May 31 06:49:09 2023 [3268][1][FATAL] WHERE:
 Wed May 31 06:49:09 2023 [3268][1][FATAL] 
 Wed May 31 06:49:09 2023 [3268][1][FATAL] WHERE1: 
 Wed May 31 06:49:09 2023 [3268][1][FATAL] 
+Thu Jun  1 06:22:11 2023 [11908][-none-][FATAL] Could not connect to DB server localhost as casu. port : Access denied for user 'casu'@'localhost' (using password: YES)
