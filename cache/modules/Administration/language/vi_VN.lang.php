@@ -1,5 +1,5 @@
 <?php
-// created: 2023-05-31 04:05:54
+// created: 2023-05-31 08:24:00
 $mod_strings = array (
   'LBL_CAPTCHA_HELP_TEXT' => 'Captcha là một thử nghiệm thách thức phản ứng được dùng để đảm bảo rằng các phản ứng không được tạo ra bởi một máy tính. Có được một khóa công khai và khóa riêng từ reCAPTCHA tại http://recaptcha.net/.',
   'CAPTCHA' => 'Xác nhận mã Captcha',

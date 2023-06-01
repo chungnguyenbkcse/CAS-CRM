@@ -3714,3 +3714,7 @@ $app_strings['LBL_SEARCH_PAGE'] = 'Trang tìm kiếm ';
 $app_strings['LBL_SEARCH_OF'] = ' của '; // Usage: Page 1 of 5
 
 $app_list_strings['LBL_REPORTS_RESTRICTED'] = 'A report you have selected is targeting a module you do not have access to. Please select a report with a target module you have access to.';
+
+
+// Add by Chung
+$app_strings['LBL_CONG_NO_KHACH_LE'] = 'Công nợ khách lẽ';

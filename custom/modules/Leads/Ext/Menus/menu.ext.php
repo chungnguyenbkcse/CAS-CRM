@@ -53,8 +53,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
  ********************************************************************************/
 $module_menu = array();
 
-$module_menu[] = array("index.php?module=Leads&action=EditView&return_module=Leads&return_action=DetailView", $mod_strings['LNK_NEW_LEAD'], "Create", 'Leads');
-$module_menu[] = array("index.php?module=Leads&action=index&return_module=Leads&return_action=DetailView", $mod_strings['LNK_LEAD_LIST'], "List", 'Leads');
+
 
 /* global $mod_strings, $app_strings, $sugar_config, $current_user;
 

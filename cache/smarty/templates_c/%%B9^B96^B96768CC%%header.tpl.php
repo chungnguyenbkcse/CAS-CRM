@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.33, created on 2023-05-31 04:05:54
+<?php /* Smarty version 2.6.33, created on 2023-05-31 08:24:00
          compiled from custom/themes/SuiteP/tpls/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'default', 'custom/themes/SuiteP/tpls/header.tpl', 63, false),)), $this); ?>
