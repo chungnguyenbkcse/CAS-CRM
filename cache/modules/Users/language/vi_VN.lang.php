@@ -1,5 +1,5 @@
 <?php
-// created: 2023-05-31 08:24:01
+// created: 2023-06-01 06:29:21
 $mod_strings = array (
   'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Mẫu e-mail hai yếu tố chưa được cài đặt, vui lòng thay đổi cài đặt trên trang quản lý mật khẩu.',
   'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Mẫu email hai yếu tố phải chứa ít nhất một $code.',

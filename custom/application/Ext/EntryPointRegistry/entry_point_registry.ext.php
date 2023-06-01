@@ -2,6 +2,16 @@
  //WARNING: The contents of this file are auto-generated
 
 
+$entry_point_registry['action_create_ro_name'] = array(
+    'file' => 'custom/modules/Leads/action_create_ro_name.php',
+    'auth' => false,
+);
+
+$entry_point_registry['add_card_number_lead'] = array(
+    'file' => 'custom/modules/Leads/add_card_number_lead.php',
+    'auth' => false,
+);
+
 $entry_point_registry['CdrReport'] = array(
     'file' => 'custom/modules/Leads/CdrReport.php',
     'auth' => false,
@@ -19,16 +29,6 @@ $entry_point_registry['Click2Call'] = array(
 
 $entry_point_registry['GetWarfile'] = array(
     'file' => 'custom/modules/Leads/GetWarfile.php',
-    'auth' => false,
-);
-
-$entry_point_registry['action_create_ro_name'] = array(
-    'file' => 'custom/modules/Leads/action_create_ro_name.php',
-    'auth' => false,
-);
-
-$entry_point_registry['add_card_number_lead'] = array(
-    'file' => 'custom/modules/Leads/add_card_number_lead.php',
     'auth' => false,
 );
 
