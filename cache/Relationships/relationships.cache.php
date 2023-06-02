@@ -14746,4 +14746,313 @@
       ),
     ),
   ),
+  'midas_postmachine_modified_user' => 
+  array (
+    'name' => 'midas_postmachine_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_PostMachine',
+    'rhs_table' => 'midas_postmachine',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'midas_postmachine_created_by' => 
+  array (
+    'name' => 'midas_postmachine_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_PostMachine',
+    'rhs_table' => 'midas_postmachine',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'midas_postmachine_assigned_user' => 
+  array (
+    'name' => 'midas_postmachine_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_PostMachine',
+    'rhs_table' => 'midas_postmachine',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_midas_postmachine' => 
+  array (
+    'name' => 'securitygroups_midas_postmachine',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_PostMachine',
+    'rhs_table' => 'midas_postmachine',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'MIDAS_PostMachine',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'varchar',
+        'len' => '100',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'midas_internalbooking_modified_user' => 
+  array (
+    'name' => 'midas_internalbooking_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_InternalBooking',
+    'rhs_table' => 'midas_internalbooking',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'midas_internalbooking_created_by' => 
+  array (
+    'name' => 'midas_internalbooking_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_InternalBooking',
+    'rhs_table' => 'midas_internalbooking',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'midas_internalbooking_assigned_user' => 
+  array (
+    'name' => 'midas_internalbooking_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_InternalBooking',
+    'rhs_table' => 'midas_internalbooking',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_midas_internalbooking' => 
+  array (
+    'name' => 'securitygroups_midas_internalbooking',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_InternalBooking',
+    'rhs_table' => 'midas_internalbooking',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'MIDAS_InternalBooking',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'varchar',
+        'len' => '100',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'midas_agency_modified_user' => 
+  array (
+    'name' => 'midas_agency_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_Agency',
+    'rhs_table' => 'midas_agency',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'midas_agency_created_by' => 
+  array (
+    'name' => 'midas_agency_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_Agency',
+    'rhs_table' => 'midas_agency',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'midas_agency_assigned_user' => 
+  array (
+    'name' => 'midas_agency_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_Agency',
+    'rhs_table' => 'midas_agency',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_midas_agency' => 
+  array (
+    'name' => 'securitygroups_midas_agency',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'MIDAS_Agency',
+    'rhs_table' => 'midas_agency',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'MIDAS_Agency',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'varchar',
+        'len' => '100',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
 );

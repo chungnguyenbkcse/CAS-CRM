@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.33, created on 2023-06-01 07:22:20
+<?php /* Smarty version 2.6.33, created on 2023-06-02 02:38:48
          compiled from custom/themes/SuiteP/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 61, false),array('function', 'counter', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 211, false),array('function', 'sugar_translate', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 528, false),array('modifier', 'lower', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),array('modifier', 'replace', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 61, false),array('function', 'counter', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 211, false),array('function', 'sugar_translate', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 552, false),array('modifier', 'lower', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),array('modifier', 'replace', 'custom/themes/SuiteP/tpls/_headerModuleList.tpl', 121, false),)), $this); ?>
 <!--Start Responsive Top Navigation Menu -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -353,6 +353,18 @@ if ($this->_foreach['groupList']['total'] > 0):
                                             <a href="http://cas.tranthu.vn/index.php?action=index&module=Leads&searchFormTab=advanced_search&query=true&clear_query=true"><?php echo $this->_tpl_vars['module']; ?>
 </a>
                                         </li>
+                                    <?php elseif ($this->_tpl_vars['module'] == 'MIDAS_Agency'): ?>
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_Agency&searchFormTab=advanced_search&query=true&clear_query=true">Agency</a>
+                                        </li>
+                                    <?php elseif ($this->_tpl_vars['module'] == 'MIDAS_InternalBooking'): ?>
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_InternalBooking&searchFormTab=advanced_search&query=true&clear_query=true">Internal Booking</a>
+                                        </li>
+                                    <?php elseif ($this->_tpl_vars['module'] == 'MIDAS_PostMachine'): ?>
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_PostMachine&searchFormTab=advanced_search&query=true&clear_query=true">Post Machine</a>
+                                        </li>
                                     <?php else: ?>
                                         <li>
                                             <?php ob_start(); ?>moduleTab_<?php echo ($this->_foreach['moduleList']['iteration']-1); ?>
@@ -372,6 +384,18 @@ _<?php echo $this->_tpl_vars['module']; ?>
                                             <a href="http://cas.tranthu.vn/index.php?action=index&module=Leads&searchFormTab=advanced_search&query=true&clear_query=true"><?php echo $this->_tpl_vars['submodulename']; ?>
 </a>
                                         </li>
+                                    <?php elseif ($this->_tpl_vars['module'] == 'MIDAS_Agency'): ?>
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_Agency&searchFormTab=advanced_search&query=true&clear_query=true">Agency</a>
+                                        </li>
+                                    <?php elseif ($this->_tpl_vars['module'] == 'MIDAS_InternalBooking'): ?>
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_InternalBooking&searchFormTab=advanced_search&query=true&clear_query=true">Internal Booking</a>
+                                        </li>
+                                    <?php elseif ($this->_tpl_vars['module'] == 'MIDAS_PostMachine'): ?>
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_PostMachine&searchFormTab=advanced_search&query=true&clear_query=true">Post Machine</a>
+                                        </li>
                                     <?php else: ?>
                                         <li>
                                             <a href="<?php echo smarty_function_sugar_link(array('module' => $this->_tpl_vars['submodule'],'link_only' => 1,'extraparams' => $this->_tpl_vars['extraparams']), $this);?>
@@ -381,22 +405,24 @@ _<?php echo $this->_tpl_vars['module']; ?>
                                     <?php endif; ?>
                                     
                                 <?php endforeach; endif; unset($_from); ?>
+
+
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý nhân viên</a>
+                                    <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_Agency&searchFormTab=advanced_search&query=true&clear_query=true">Agency</a>
                                 </li>
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý đại lý</a>
+                                    <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_InternalBooking&searchFormTab=advanced_search&query=true&clear_query=true">Internal Booking</a>
+                                </li>
+                                <li>
+                                    <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_PostMachine&searchFormTab=advanced_search&query=true&clear_query=true">Post Machine</a>
                                 </li>
 
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no_khach_le&return_module=Leads&return_action=DetailView">Quản lý công nợ khách lẻ</a>
                                 </li>
+                                
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no_dai_ly&return_module=Leads&return_action=DetailView">Quản lý công nợ đại lý</a>
-                                </li>
-
-                                <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=tao_booking_noi_bo&return_module=Leads&return_action=DetailView">Tạo booking nội bộ</a>
                                 </li>
 
                                 <li>
@@ -406,11 +432,9 @@ _<?php echo $this->_tpl_vars['module']; ?>
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=giao_dich&return_module=Leads&return_action=DetailView">Quản lý giao dịch</a>
                                 </li>
+
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=chi_phi&return_module=Leads&return_action=DetailView">Quản lý chi phí</a>
-                                </li>
-                                <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=may_post&return_module=Leads&return_action=DetailView">Quản lý máy post</a>
                                 </li>
                             </ul>
                         </li>

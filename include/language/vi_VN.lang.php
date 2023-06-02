@@ -104,7 +104,9 @@ $app_list_strings = array(
         'Newsletters' => 'Tin mới',
         'SugarFeed' => 'Nguồn cấp dữ liệu SuiteCRM',
         'SugarFavorites' => 'Đánh dấu SuiteCRM vào mục yêu thích',
-
+        'MIDAS_Agency' => 'Đại lý',
+        'MIDAS_InternalBooking' => 'Booking nội bộ',
+        'MIDAS_PostMachine' => 'Máy Post',
         'OAuthKeys' => 'Bảo Mật ',
         'OAuthTokens' => 'Bảo mật',
         'OAuth2Clients' => 'OAuth Clients',
@@ -140,6 +142,9 @@ $app_list_strings = array(
         'Sync' => 'Đồng bộ',
         'Users' => 'Người dùng',
         'SugarFavorites' => 'Đánh dấu SuiteCRM vào mục yêu thích',
+        'MIDAS_Agency' => 'Đại lý',
+        'MIDAS_InternalBooking' => 'Booking nội bộ',
+        'MIDAS_PostMachine' => 'Máy Post',
 
     ),
 

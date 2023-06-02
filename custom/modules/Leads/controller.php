@@ -83,6 +83,32 @@ class LeadsController extends SugarController
         return true;
     }
 
+    public function action_cong_no_dai_ly()
+    {
+        $this->view = 'cong_no_dai_ly';
+        return true;
+    }
+
+    public function action_cong_no_dai_ly_1()
+    {
+        $this->view = 'cong_no_dai_ly_1';
+        return true;
+    }
+
+
+    public function action_may_post()
+    {
+        $this->view = 'may_post';
+        return true;
+    }
+
+
+    public function action_tao_booking_noi_bo()
+    {
+        $this->view = 'tao_booking_noi_bo';
+        return true;
+    }
+
     protected function callLegacyCode()
     {
         if (strtolower($this->do_action) == 'convertlead') {

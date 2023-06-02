@@ -288,6 +288,18 @@
                                         <li>
                                             <a href="http://cas.tranthu.vn/index.php?action=index&module=Leads&searchFormTab=advanced_search&query=true&clear_query=true">{$module}</a>
                                         </li>
+                                    {elseif $module == "MIDAS_Agency"}
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_Agency&searchFormTab=advanced_search&query=true&clear_query=true">Agency</a>
+                                        </li>
+                                    {elseif $module == "MIDAS_InternalBooking"}
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_InternalBooking&searchFormTab=advanced_search&query=true&clear_query=true">Internal Booking</a>
+                                        </li>
+                                    {elseif $module == "MIDAS_PostMachine"}
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_PostMachine&searchFormTab=advanced_search&query=true&clear_query=true">Post Machine</a>
+                                        </li>
                                     {else}
                                         <li>
                                             {capture name=moduleTabId assign=moduleTabId}moduleTab_{$smarty.foreach.moduleList.index}_{$module}{/capture}
@@ -301,6 +313,18 @@
                                         <li>
                                             <a href="http://cas.tranthu.vn/index.php?action=index&module=Leads&searchFormTab=advanced_search&query=true&clear_query=true">{$submodulename}</a>
                                         </li>
+                                    {elseif $module == "MIDAS_Agency"}
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_Agency&searchFormTab=advanced_search&query=true&clear_query=true">Agency</a>
+                                        </li>
+                                    {elseif $module == "MIDAS_InternalBooking"}
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_InternalBooking&searchFormTab=advanced_search&query=true&clear_query=true">Internal Booking</a>
+                                        </li>
+                                    {elseif $module == "MIDAS_PostMachine"}
+                                        <li>
+                                            <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_PostMachine&searchFormTab=advanced_search&query=true&clear_query=true">Post Machine</a>
+                                        </li>
                                     {else}
                                         <li>
                                             <a href="{sugar_link module=$submodule link_only=1 extraparams=$extraparams}">{$submodulename}</a>
@@ -308,19 +332,24 @@
                                     {/if}
                                     
                                 {/foreach}
+
+
                                 <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no&return_module=Leads&return_action=DetailView">Quản lý đại lý</a>
+                                    <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_Agency&searchFormTab=advanced_search&query=true&clear_query=true">Agency</a>
+                                </li>
+                                <li>
+                                    <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_InternalBooking&searchFormTab=advanced_search&query=true&clear_query=true">Internal Booking</a>
+                                </li>
+                                <li>
+                                    <a href="http://cas.tranthu.vn/index.php?action=index&module=MIDAS_PostMachine&searchFormTab=advanced_search&query=true&clear_query=true">Post Machine</a>
                                 </li>
 
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no_khach_le&return_module=Leads&return_action=DetailView">Quản lý công nợ khách lẻ</a>
                                 </li>
+                                
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=cong_no_dai_ly&return_module=Leads&return_action=DetailView">Quản lý công nợ đại lý</a>
-                                </li>
-
-                                <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=tao_booking_noi_bo&return_module=Leads&return_action=DetailView">Tạo booking nội bộ</a>
                                 </li>
 
                                 <li>
@@ -330,11 +359,9 @@
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=giao_dich&return_module=Leads&return_action=DetailView">Quản lý giao dịch</a>
                                 </li>
+
                                 <li>
                                     <a href="http://cas.tranthu.vn/index.php?module=Leads&action=chi_phi&return_module=Leads&return_action=DetailView">Quản lý chi phí</a>
-                                </li>
-                                <li>
-                                    <a href="http://cas.tranthu.vn/index.php?module=Leads&action=may_post&return_module=Leads&return_action=DetailView">Quản lý máy post</a>
                                 </li>
                             </ul>
                         </li>

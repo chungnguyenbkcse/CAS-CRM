@@ -3719,3 +3719,7 @@ $app_list_strings['LBL_REPORTS_RESTRICTED'] = 'A report you have selected is tar
 // Add by Chung
 $app_strings['LBL_CONG_NO_KHACH_LE'] = 'Công nợ phải trả của khách hàng';
 $app_strings['LBL_CONG_NO_KHACH_LE_1'] = 'Công nợ phải thu của khách hàng';
+$app_strings['LBL_CONG_NO_DAI_LY'] = 'Công nợ phải trả của đại lý';
+$app_strings['LBL_CONG_NO_DAI_LY_1'] = 'Công nợ phải thu của đại lý';
+$app_strings['LBL_MAY_POST'] = 'Máy post';
+$app_strings['LBL_BOOKING_NOI_BO'] = 'Booking nội bộ';

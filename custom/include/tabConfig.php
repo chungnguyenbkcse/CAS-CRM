@@ -7,12 +7,6 @@ $GLOBALS["tabStructure"] =array (
     array (
       0 => 'Home',
       1 => 'Leads',
-      2 => 'Customer/agent/employee information',
-      3 => 'Booking funds',
-      4 => 'Card delivery/receipt management',
-      5 => 'Vending machine management',
-      6 => 'Approve',
-      7 => 'Interchange Management',
     ),
   ),
   /* 'LBL_TABGROUP_MARKETING' => 

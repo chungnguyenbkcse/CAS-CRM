@@ -104,7 +104,9 @@ $app_list_strings = array(
         'Newsletters' => 'Newsletters',
         'SugarFeed' => 'SuiteCRM Feed',
         'SugarFavorites' => 'SuiteCRM Favorites',
-
+        'MIDAS_Agency' => 'Agency',
+        'MIDAS_InternalBooking' => 'Internal Booking',
+        'MIDAS_PostMachine' => 'Post Machine',
         'OAuthKeys' => 'OAuth Consumer Keys',
         'OAuthTokens' => 'OAuth Tokens',
         'OAuth2Clients' => 'OAuth Clients',
@@ -140,7 +142,9 @@ $app_list_strings = array(
         'Sync' => 'Sync',
         'Users' => 'User',
         'SugarFavorites' => 'SuiteCRM Favorites',
-
+        'MIDAS_Agency' => 'Agency',
+        'MIDAS_InternalBooking' => 'Internal Booking',
+        'MIDAS_PostMachine' => 'Post Machine',
     ),
 
     'checkbox_dom' => array(

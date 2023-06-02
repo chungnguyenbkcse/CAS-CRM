@@ -3957,3 +3957,8 @@ $app_strings['LBL_SIGNATURE'] = 'Signature';
 // Add by Chung
 $app_strings['LBL_CONG_NO_KHACH_LE'] = 'Debts payable by customers';
 $app_strings['LBL_CONG_NO_KHACH_LE_1'] = 'Receivables from customers';
+$app_strings['LBL_CONG_NO_DAI_LY'] = 'Debts payable by agency';
+$app_strings['LBL_CONG_NO_DAI_LY_1'] = 'Receivables from agency';
+$app_strings['LBL_MAY_POST'] = 'Post Machine';
+$app_strings['LBL_BOOKING_NOI_BO'] = 'Internal booking';
+
