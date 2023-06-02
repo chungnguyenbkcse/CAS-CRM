@@ -182,3 +182,9 @@ Fri Jun  2 08:13:10 2023 [2166][1][FATAL] ADMIN
 Fri Jun  2 08:42:49 2023 [2166][1][FATAL] ADMIN
 Fri Jun  2 08:50:46 2023 [2198][1][FATAL] 
 Fri Jun  2 09:10:48 2023 [1866][1][FATAL] ADMIN
+Fri Jun  2 10:59:14 2023 [24390][1][FATAL] ADMIN
+Fri Jun  2 04:01:40 2023 [27975][1][FATAL] DeployedMetaDataImplementation: could not write new viewdef file custom/modules/MIDAS_PostMachine/metadata/searchdefs.php
+Fri Jun  2 04:01:51 2023 [2021][1][FATAL] DeployedMetaDataImplementation: could not write new viewdef file custom/modules/MIDAS_PostMachine/metadata/searchdefs.php
+Fri Jun  2 04:03:28 2023 [1866][1][FATAL] DeployedMetaDataImplementation: could not write new viewdef file custom/modules/MIDAS_PostMachine/metadata/listviewdefs.php
+Fri Jun  2 04:04:35 2023 [1863][1][FATAL] DeployedMetaDataImplementation: could not write new viewdef file custom/modules/MIDAS_PostMachine/metadata/listviewdefs.php
+Fri Jun  2 14:11:40 2023 [1864][1][FATAL] 

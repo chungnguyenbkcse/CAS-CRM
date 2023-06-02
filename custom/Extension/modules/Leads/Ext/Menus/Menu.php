@@ -48,9 +48,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
  * All Rights Reserved.
  * Contributor(s): ______________________________________..
  ********************************************************************************/
-$module_menu = array();
 
-
+if (ACLController::checkAccess('Leads', 'edit', true)) {
+    $module_menu[] = array("index.php?module=Leads&action=EditView&return_module=Leads&return_action=DetailView", $mod_strings['LNK_NEW_LEAD'], "Create", 'Leads');
+}
+if (ACLController::checkAccess('Leads', 'list', true)) {
+    $module_menu[] = array("index.php?module=Leads&action=index&return_module=Leads&return_action=DetailView", $mod_strings['LNK_LEAD_LIST'], "List", 'Leads');
+}
 
 /* global $mod_strings, $app_strings, $sugar_config, $current_user;
 

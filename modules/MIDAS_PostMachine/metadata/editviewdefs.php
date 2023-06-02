@@ -52,12 +52,18 @@ $viewdefs[$module_name]['EditView'] = array(
         'default' => array(
 
             array(
-                'name',
-                'assigned_user_name',
+                'ten_may',
+                'ma_may',
             ),
 
             array(
-                'description',
+                'han_muc',
+                'da_dung',
+            ),
+
+            array(
+                'kha_dung',
+                'chi_nhanh'
             ),
         ),
 

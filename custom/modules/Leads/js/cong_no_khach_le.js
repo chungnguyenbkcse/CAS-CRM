@@ -16,29 +16,4 @@ $(document).ready(function () {
     $('.moduleTitle').append(childDiv);
 
 
-    var newHTML = `
-    <div id="actionMenuSidebar" class="actionMenuSidebar">
-        <ul>
-            <h2 class="recent_h3">Hành động</h2>
-            <li class="actionmenulinks" role="presentation">
-                <a href="index.php?module=Leads&action=cong_no_khach_le&return_module=Leads&return_action=DetailView" data-action-name="List">
-                    <div class="side-bar-action-icon">
-                        <span class="suitepicon suitepicon-action-list"></span>
-                    </div>
-                    <div class="actionmenulink">Danh sách công nợ phải trả (tạm ứng) của khách hàng</div>
-                </a>
-            </li>                                                                                                                        
-            <li class="actionmenulinks" role="presentation">
-                <a href="index.php?module=Leads&action=cong_no_khach_le_1&return_module=Leads&return_action=DetailView" data-action-name="List">
-                    <div class="side-bar-action-icon">
-                        <span class="suitepicon suitepicon-action-list"></span>
-                    </div>
-                    <div class="actionmenulink">Danh sách công nợ phải thu của khách hàng</div>
-                </a>
-            </li>                                                                                                                              
-        </ul>                                                                                                     
-    </div>
-    `;
-  
-    $('#actionMenuSidebar').html(newHTML);
 })
