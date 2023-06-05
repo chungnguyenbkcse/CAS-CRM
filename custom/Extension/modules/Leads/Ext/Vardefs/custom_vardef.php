@@ -968,6 +968,16 @@ $dictionary['Lead'] = array(
             'audited' => true,
             'comment' => 'The birthday of the contact'
         ),
+        'identity_type' =>
+        array(
+            'name' => 'identity_type',
+            'vname' => 'LBL_IDENTITY_TYPE',
+            'type' => 'enum',
+            'options' => 'identity_type_dom',
+            'len' => '255',
+            'audited' => true,
+            'comment' => 'Loại giấy tờ tùy thân',
+        ),
 
     ), 'indices' => array(
         array('name' => 'idx_lead_acct_name_first', 'type' => 'index', 'fields' => array('account_name', 'deleted')),

@@ -1040,6 +1040,11 @@ $app_list_strings = array(
         'repliedtoowner' => 'Replied to Email Owner',
         'recordowner' => 'Associated Record Owner',
     ),
+
+    'identity_type_dom' => array(
+        'cccd' => 'CCCD',
+        'cmnd' => 'CMND'
+    ),
 );
 
 $app_strings = array(

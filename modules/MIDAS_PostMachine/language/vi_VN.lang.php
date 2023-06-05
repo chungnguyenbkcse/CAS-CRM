@@ -74,4 +74,10 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
   'LBL_MIDAS_POSTMACHINE_SUBPANEL_TITLE' => 'Post Machine',
   'LBL_NEW_FORM_TITLE' => 'Mới Post Machine',
+  'LBL_CHI_NHANH' => 'Chi nhánh',
+  'LBL_MA_MAY' => 'Mã',
+  'LBL_TEN_MAY' => 'Tên',
+  'LBL_HAN_MUC' => 'Hạn mức',
+  'LBL_DA_DUNG' => 'Đã dùng',
+  'LBL_KHA_DUNG' => 'Khả dụng',
 );

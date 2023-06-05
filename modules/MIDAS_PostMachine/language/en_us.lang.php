@@ -74,4 +74,10 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_MIDAS_POSTMACHINE_SUBPANEL_TITLE' => 'Post Machine',
   'LBL_NEW_FORM_TITLE' => 'New Post Machine',
+  'LBL_CHI_NHANH' => 'Branch',
+  'LBL_MA_MAY' => 'Code',
+  'LBL_TEN_MAY' => 'Name',
+  'LBL_HAN_MUC' => 'Level',
+  'LBL_DA_DUNG' => 'Used',
+  'LBL_KHA_DUNG' => 'Availability',
 );

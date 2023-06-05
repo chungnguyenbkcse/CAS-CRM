@@ -44,18 +44,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $module_name = 'MIDAS_PostMachine';
 $listViewDefs[$module_name] = array(
-    'NAME' => array(
+    'ma_may' => array(
         'width' => '32',
-        'label' => 'LBL_NAME',
+        'label' => 'LBL_MA_MAY',
         'default' => true,
         'link' => true
     ),
-    'ASSIGNED_USER_NAME' => array(
+    'ten_may' => array(
         'width' => '9',
-        'label' => 'LBL_ASSIGNED_TO_NAME',
-        'module' => 'Employees',
-        'id' => 'ASSIGNED_USER_ID',
-        'default' => true
+        'label' => 'LBL_TEN_MAY',
+        'default' => true,
+        'link' => true
     ),
 
 );

@@ -61,9 +61,20 @@ $viewdefs[$module_name]['DetailView'] = array(
             'default' =>
                 array(
                     array(
-                        'name',
-                        'assigned_user_name',
+                        'ma_may',
+                        'ten_may',
                     ),
+        
+                    array(
+                        'chi_nhanh',
+                        'han_muc'
+                    ),
+        
+                    array(
+                        'da_dung',
+                        'kha_dung'
+                    ),
+
                     array(
                         array(
                             'name' => 'date_entered',
@@ -75,10 +86,6 @@ $viewdefs[$module_name]['DetailView'] = array(
                             'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
                             'label' => 'LBL_DATE_MODIFIED',
                         ),
-                    ),
-
-                    array(
-                        'description',
                     ),
                 )
         )

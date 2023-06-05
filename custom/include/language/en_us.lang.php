@@ -103,6 +103,11 @@ $app_list_strings = array(
         'Visa' => 'Visa',
         'NAPAS' => 'NAPAS',
     ),
+
+    'identity_type_dom' => array(
+        'cccd' => 'CCCD',
+        'cmnd' => 'CMND'
+    ),
     'bank_dom' => array(
         '' => '',
         '1' => 'HSBC',

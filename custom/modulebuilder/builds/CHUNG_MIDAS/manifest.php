@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'CHUNG_MIDAS',
-  'published_date' => '2023-06-02 02:01:00',
+  'published_date' => '2023-06-02 08:40:24',
   'type' => 'module',
-  'version' => 1685671260,
+  'version' => 1685695224,
   'remove_tables' => 'prompt',
 );
 

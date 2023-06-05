@@ -1,5 +1,4 @@
 <?php
-
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -44,70 +43,71 @@ $dictionary['MIDAS_PostMachine'] = array(
     'audited' => true,
     'inline_edit' => true,
     'duplicate_merge' => true,
-    'fields' => array(
-        'chi_nhanh' =>
-        array(
-            'name' => 'chi_nhanh',
-            'vname' => 'LBL_CHI_NHANH',
-            'massupdate' => false,
-            'type' => 'varchar',
-            'audited' => true,
-            'len' => '255',
-            'comment' => 'Chi nhánh'
-        ),
-        'ma_may' =>
-        array(
-            'name' => 'ma_may',
-            'vname' => 'LBL_MA_MAY',
-            'massupdate' => false,
-            'type' => 'varchar',
-            'audited' => true,
-            'len' => '255',
-            'comment' => 'Chi nhánh'
-        ),
-        'ten_may' =>
-        array(
-            'name' => 'ten_may',
-            'vname' => 'LBL_TEN_MAY',
-            'massupdate' => false,
-            'type' => 'varchar',
-            'audited' => true,
-            'len' => '255',
-            'comment' => 'Tên nhánh'
-        ),
-        'han_muc' =>
-        array(
-            'name' => 'han_muc',
-            'vname' => 'LBL_HAN_MUC',
-            'massupdate' => false,
-            'type' => 'double',
-            'audited' => true,
-            'comment' => 'Hạn mức'
-        ),
-        'da_dung' =>
-        array(
-            'name' => 'da_dung',
-            'vname' => 'LBL_DA_DUNG',
-            'massupdate' => false,
-            'type' => 'double',
-            'audited' => true,
-            'comment' => 'Đã dùng'
-        ),
-        'kha_dung' =>
-        array(
-            'name' => 'kha_dung',
-            'vname' => 'LBL_KHA_DUNG',
-            'massupdate' => false,
-            'type' => 'double',
-            'audited' => true,
-            'comment' => 'Khả dụng'
-        ),
-    ),
-    'relationships' => array(),
+    'fields' => array (
+  'chi_nhanh' => 
+  array (
+    'name' => 'chi_nhanh',
+    'vname' => 'LBL_CHI_NHANH',
+    'massupdate' => false,
+    'type' => 'varchar',
+    'audited' => true,
+    'len' => '255',
+    'comment' => 'Chi nhánh',
+  ),
+  'ma_may' => 
+  array (
+    'name' => 'ma_may',
+    'vname' => 'LBL_MA_MAY',
+    'massupdate' => false,
+    'type' => 'varchar',
+    'audited' => true,
+    'len' => '255',
+    'comment' => 'Chi nhánh',
+  ),
+  'ten_may' => 
+  array (
+    'name' => 'ten_may',
+    'vname' => 'LBL_TEN_MAY',
+    'massupdate' => false,
+    'type' => 'varchar',
+    'audited' => true,
+    'len' => '255',
+    'comment' => 'Tên nhánh',
+  ),
+  'han_muc' => 
+  array (
+    'name' => 'han_muc',
+    'vname' => 'LBL_HAN_MUC',
+    'massupdate' => false,
+    'type' => 'double',
+    'audited' => true,
+    'comment' => 'Hạn mức',
+  ),
+  'da_dung' => 
+  array (
+    'name' => 'da_dung',
+    'vname' => 'LBL_DA_DUNG',
+    'massupdate' => false,
+    'type' => 'double',
+    'audited' => true,
+    'comment' => 'Đã dùng',
+  ),
+  'kha_dung' => 
+  array (
+    'name' => 'kha_dung',
+    'vname' => 'LBL_KHA_DUNG',
+    'massupdate' => false,
+    'type' => 'double',
+    'audited' => true,
+    'comment' => 'Khả dụng',
+  ),
+),
+    'relationships' => array (
+),
     'optimistic_locking' => true,
     'unified_search' => true,
 );
 if (!class_exists('VardefManager')) {
-    require_once('include/SugarObjects/VardefManager.php');
+        require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('MIDAS_PostMachine', 'MIDAS_PostMachine', array('basic', 'assignable', 'security_groups'));
+VardefManager::createVardef('MIDAS_PostMachine', 'MIDAS_PostMachine', array('basic','assignable','security_groups'));

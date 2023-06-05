@@ -1,5 +1,5 @@
 <?php
-// created: 2023-06-02 07:12:24
+// created: 2023-06-05 07:08:36
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -255,4 +255,5 @@ $mod_strings = array (
   'LBL_LEAD_STATUS_RO' => 'Lead status ro',
   'LBL_CARD_NUMBER' => 'Card number',
   'LBL_DAY_RO_MODIFIED_SALE_STAGE' => 'Day RO modified sale stage',
+  'LBL_IDENTITY_TYPE' => 'Identity type',
 );
